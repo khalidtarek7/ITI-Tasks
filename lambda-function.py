@@ -1,3 +1,4 @@
+#Lambda Function to copy a file into s3 bucket.
 import json, boto3,os, sys, uuid
 from urllib.parse import unquote_plus
 
